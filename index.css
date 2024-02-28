@@ -1,0 +1,1714 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* mobile view */
+*{
+  font-family: "Poppins", sans-serif;
+  
+}
+body {
+  background-color: #f8fcfe;
+  max-width: 100%;
+  background-image: url("./assests/images/download.webp");
+  background-size: 350px;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+nav {
+  padding: 0px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: none;
+  gap: 50px;
+  font-size: 20px;
+  padding: 0px 10px;
+}
+
+nav button {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  position: relative;
+  padding: 15px 20px;
+  display: none;
+}
+
+.hamburger img {
+  width: 35px;
+  padding: 0px 130px;
+  position: relative;
+}
+
+.logo img {
+  width: 110px;
+  padding: 20px 20px;
+}
+
+.part-1{
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width:100%;
+  padding:0px 10px;
+  margin:auto;
+}
+
+.button {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  /* padding: 30px 10px; */
+/* transform: translate(-10%, 0%);  */
+/* display: flex; */
+top:30px;
+left:10px;
+
+}
+
+.button img {
+  position:relative;
+  width: 15px;
+  color: blue;
+  align-items: right;
+  /* transform: translate(1660%, 20%); */
+  justify-content: right;
+  top:auto;
+  left:140px;
+}
+
+.button-1 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  /* padding: 5px 30px; */
+  width: 300px;
+  height: 30px;
+  background-color: #c7e2f6;
+  color: #41beff;
+  cursor: pointer;
+  border: none;
+  font-size: 13px;
+}
+
+.button-1 p {
+  position: absolute;
+  /* display: flex; */
+  text-align: center;
+  top: -7px;
+  left: 45px;
+
+}
+
+.button-2 {
+  top: 4px;
+  left: 2px;
+  position: absolute;
+  /* display: flex; */
+  justify-content: left;
+  /* transform: translate(10%, -130%); */
+  padding: 1px 5px;
+  border-radius: 15px;
+  background-color: #06a0f1;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.text{
+  /* position: relative; */
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding:30px 0px;
+}
+
+
+.text-1 {
+  text-align: center;
+  font-size: 30px;
+  color: #102a43;
+  /* position: relative; */
+  /* top: -40px; */
+}
+
+.text-1 span {
+  color: #41beff;
+}
+
+.text-2 {
+  text-align: center;
+  font-size: 16px;
+  color: #486581;
+  /* position: relative; */
+  /* top: -50px; */
+  
+}
+
+.part-1-1 {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  position: relative;
+  top: 10px;
+}
+
+.google-play {
+  width: 120px;
+  border-radius: 10px;
+}
+
+.apple-store {
+  width: 120px;
+  border-radius: 10px;
+}
+
+.part-2{
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  top: 20px;
+  margin: auto;
+  padding: 10px 10px;
+  width:100%;
+}
+
+.part-1-2 {
+  position: absolute;
+  width: 100%;
+  height: 50vh;
+  background-image: url("./assests/images/Mobile-App-Hero-BG-2.png");
+  background-size: 300px;
+  background-position: center left 10px;
+  background-repeat: no-repeat;
+  padding: 10px 10px;
+}
+
+.part-1-2 img {
+  position: absolute;
+  top:40px;
+  left: 10px;
+  width: 300px;
+  
+}
+
+.part-3 {
+  background-color: rgb(255, 253, 250);
+  position: relative;
+  justify-content: center;
+  align-items: end;
+  padding: 120px 5px;
+  right: 0px;
+  left: 0px;
+  top: 350px;
+  width: 100%;
+  margin:5px 0px;
+}
+
+.part-3-1{
+  position: relative;
+  top:-100px;
+}
+
+.text-3 {
+  text-align: left;
+  font-size: 25px;
+  color: #102a43;
+  position: relative;
+  top: 0px;
+  padding: 10px 20px;
+}
+
+.text-3 span {
+  color: #41beff;
+}
+
+.part-3 p {
+  text-align: left;
+  font-size: 16px;
+  color: #486581;
+  position: relative;
+  top: -20px;
+  padding: 10px 20px;
+}
+
+.part-3 button {
+  position: relative;
+  display: flex;
+  border-radius: 30px;
+  padding: 13px 30px;
+  background-color: #41beff;
+  color: white;
+  border: none;
+  transform: translate(10%, 0%);
+  font-size: 16px;
+}
+
+ .section-1 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./assests/images/Mobile-App-Revolutionize-BG.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center top 40px;
+  margin: auto;
+}
+
+.section-1 img{
+  position: relative;
+  left:-70px;
+  /* justify-content: center;
+  align-items: center; */
+  /* margin: auto; */
+  /* display:inline-flex; */
+}
+
+
+ .section-1 .photo-1 {
+  position: relative;
+  width: 180px;
+  transform: translate(120%, 50%);
+  border-radius: 20px;
+}
+
+.section-1 .photo-2 {
+  position: relative;
+  width: 70%;
+  height: 50%;
+  transform: translate(5%, 400%);
+  border-radius: 20px;
+}
+
+.section-1 .photo-3 {
+  position: absolute;
+  width: 50%;
+  /* height: 50%; */
+  transform: translate(40%, 10%);
+}
+
+.part-3-2{
+position: relative;
+top:-100px;
+/* justify-content: center;
+align-items: center; */
+}
+
+.section-3{
+  position: relative;
+  top: 150px;
+}
+
+.section-3 h2 {
+  text-align: left;
+  font-size: 25px;
+  color: #102a43;
+  position: relative;
+  top: 0px;
+  padding: 10px 20px;
+}
+
+.text-3 span {
+  color: #41beff;
+}
+
+.section-3 p {
+  text-align: left;
+  font-size: 16px;
+  color: #486581;
+  position: relative;
+  top: -20px;
+  padding: 10px 20px;
+}
+
+ .list {
+  position: relative;
+  top:-30px;
+  /* padding: 10px 150px; */
+}
+
+ .list ul {
+  list-style-type: none;
+  padding: 10px;
+}
+
+ul li img {
+  width: 30px;
+  position: relative;
+  top: 10px;
+  margin-right: 10px;
+}
+
+ .part-3 .section-4{
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./assests/images/Mobile-App-Connections-BG.png");
+  background-size: 250px;
+  background-repeat: no-repeat;
+  background-position: center top 200px;
+  display: flex;
+  top:-70px;
+
+}
+
+.part-3 .section-4 img{
+  position: relative;
+  display: flex;
+}
+
+.photo-4{
+  width:150px;
+  transform: translate(80%, 80%);
+}
+
+.photo-5{
+  width:170px;
+  border-radius: 10px;
+  transform: translate(-80%, 250%);
+
+}
+
+.part-4{
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(251, 246, 238);
+  top:340px;
+  padding:70px 0px;
+  margin:0px;
+}
+
+.part-4-1{
+  position: relative;
+  top:-30px;
+}
+
+.part-4-1 p{
+  text-align: left;
+  padding:0px 20px;
+}
+
+.list-2 ul {
+  list-style-type: none;
+  padding: 10px;
+}
+
+.part-4 .part-4-2{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./assests/images/Mobile-App-High-Quality-BG.webp");
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position: center top -10px;
+}
+
+.part-4 .part-4-2 img{
+position: relative;
+top:-30px;
+
+}
+
+.photo-6{
+  width:150px;
+  border-radius: 10px;
+  transform: translate(90%, 10%);
+}
+
+.photo-7{
+  width:150px;
+  border-radius: 10px;
+  transform: translate(-90%, 30%);
+}
+
+.part-5{
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  background-color: #edf7fc;
+  top:310px;
+  padding:160px 0px;
+}
+
+.part-5-1{
+  position: relative;
+  top:-150px;
+  padding:10px 10px;
+}
+
+.part-5-1 h2{
+  text-align: center;
+}
+
+.part-5-1 p{
+  text-align: center;
+  line-height: 30px;
+  padding:0px 20px;
+}
+
+.part-6{
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  padding:20px 20px;
+  border-radius: 20px;
+  top:3420px;
+  background-color: white;
+  margin:20px 25px;
+  width:70%;
+  border: 1px solid whitesmoke;
+}
+
+.part-6-1{
+  position: relative;
+}
+
+.part-6-1 h3{
+  text-align: center;
+}
+
+.part-6-1 p{
+  text-align: center;
+  font-size: 14px;
+}
+
+.part-6-2{
+  position: relative;
+top:20px;
+}
+
+.part-6-2 img{
+  width:250px;
+}
+
+.part-7{
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  padding:20px 20px;
+  border-radius: 20px;
+  top:3800px;
+  background-color: white;
+  margin:20px 25px;
+  width:70%;
+  height:70%;
+  border: 1px solid whitesmoke;
+}
+
+.part-7-1{
+  position: relative;
+}
+
+.part-7-1 h3{
+  text-align: center;
+}
+
+.part-7-2{
+  position: relative;
+top:10px;
+padding:0px 0px;
+}
+
+.part-7-2 .photo-9{
+  width:250px;
+  height:200px;
+}
+
+.part-8{
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background-color: #020F33;
+  top:200px;
+  padding:650px 0px;
+  z-index: -1;
+}
+
+.part-8-1{
+  position: relative;
+  top:70px;
+}
+
+.part-8-1 h2{
+text-align: center;
+color:white;
+}
+
+.section-A{
+display: inline-block;
+}
+
+.part-9{
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  padding:20px 20px;
+  border-radius: 20px;
+  top:4500px;
+  background-color: white;
+  margin:20px 25px;
+  width:70%;
+  height:45%;
+  border: 1px solid whitesmoke;
+}
+
+.part-9 p{
+  text-align: left;
+}
+
+.part-10{
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  padding:20px 20px;
+  border-radius: 20px;
+  top:4840px;
+  background-color: white;
+  margin:20px 25px;
+  width:70%;
+  height:45%;
+  border: 1px solid whitesmoke;
+}
+
+.part-10 p{
+  text-align: left;
+}
+
+.part-11{
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  padding:20px 20px;
+  border-radius: 20px;
+  top:5180px;
+  background-color: white;
+  margin:20px 25px;
+  width:70%;
+  height:45%;
+  border: 1px solid whitesmoke;
+}
+
+.part-11 p{
+  text-align: left;
+}
+
+.empty{
+  position: relative;
+  background-color:rgb(255, 251, 246) ;
+  padding: 290px 0px;
+  bottom:-100px;
+  z-index: -1;
+}
+
+.part-12{
+  position: relative;
+  background-color: rgb(252, 246, 239);
+  z-index: -1;
+  bottom:-100px;
+  padding: 200px 0px;
+  width:100%;
+}
+
+.part-12-1{
+  position: relative;
+bottom:170px;
+padding:0px 20px;
+}
+
+
+.subsection-12{
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  overflow-x: scroll; 
+  overflow-y: hidden;
+  white-space: wrap;
+  display: flex;
+  padding:10px 0px;
+  /* gap:20px; */
+  width:100%;
+  bottom:30px;
+ 
+}
+
+.subpart-1{
+
+  padding:20px 20px;
+  border-radius: 20px;
+  bottom:-100px;
+  background-color: white;
+  margin:20px 25px;
+  width:70%;
+  height:50%;
+  border: 1px solid whitesmoke;
+}
+
+.subpart-1-1 img{
+  border-radius: 50px;
+  width:50px;
+}
+
+.part-12 span{
+  color:gray;
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+.part-12 p{
+  text-align: left;
+}
+
+.subpart-2{
+  padding:20px 20px;
+  border-radius: 20px;
+  bottom:-100px;
+  background-color: white;
+  margin:20px 25px;
+  width:70%;
+  height:50%;
+  border: 1px solid whitesmoke;
+}
+
+.subpart-2-1 img{
+  border-radius: 50px;
+  width:50px;
+}
+
+.subpart-3{
+  padding:20px 20px;
+  border-radius: 20px;
+  bottom:-100px;
+  background-color: white;
+  margin:20px 25px;
+  width:70%;
+  height:50%;
+  border: 1px solid whitesmoke;
+}
+
+.subpart-3-1 img{
+  border-radius: 50px;
+  width:50px;
+}
+
+.subpart-4{
+  padding:20px 20px;
+  border-radius: 20px;
+  bottom:-100px;
+  background-color: white;
+  margin:20px 25px;
+  width:70%;
+  height:50%;
+  border: 1px solid whitesmoke;
+}
+
+.subpart-4-1 img{
+  border-radius: 50px;
+  width:50px;
+}
+
+.part-13{
+  position: relative;
+  bottom:-100px;
+  background-color: rgb(252, 246, 239);
+  padding:20px 0px;
+}
+
+.part-13-1{
+  position: relative;
+  padding:60px 10px;
+  bottom:80px;
+}
+
+.part-13-1 p{
+  text-align: left;
+  padding:0px 20px;
+}
+
+.part-13-2{
+  position: relative;
+  display: flex;
+  gap:20px;
+  padding:0px 30px;
+  bottom:100px;
+}
+
+.part-13-2 img{
+  width:120px;
+  border-radius: 10px;
+}
+
+.part-13-3{
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./assests/images/Mobile-App-Hero-BG-2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center top -10px;
+  bottom:50px;
+}
+
+.part-13-3 img{
+  display: block;
+  margin:auto;
+  width:90%;
+}
+
+footer{
+  position: relative;
+  background-color:#020F33;
+  bottom:-100px;
+  padding:60px 20px;
+}
+
+
+.part-14{
+  justify-content: center;
+  align-items: center;
+  /* padding:60px 20px; */
+}
+
+.part-14 img{
+  display: block;
+  margin:auto;
+  width:50%;
+}
+
+.part-14 p{
+  color: white;
+}
+
+.part-15{
+justify-content: center;
+align-items: center;
+margin: auto;
+/* padding:0px 10px; */
+}
+
+.part-15 h4{
+  color: white;
+  text-align: center;
+}
+
+.part-15A{
+  display: flex;
+  padding:20px 10px;
+  
+}
+
+ .part-15B{
+  display: flex;
+ }
+
+.part-15A ul{
+  list-style-type: none;
+  color:gainsboro;
+  text-align: center;
+  line-height: 30px;
+  padding:0px 20px;
+  
+}
+
+.part-15B ul{
+  list-style-type: none;
+  color:gainsboro;
+  text-align: center;
+  line-height: 30px;
+ padding:0px 20px; 
+}
+
+.part-16{
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+ bottom:-30px;
+}
+
+.part-16 p{
+  color: gainsboro;
+  text-align: center;
+  line-height: 20px;
+  font-size: 13px;
+}
+
+
+
+
+/* laptop view */
+@media only screen and (min-width: 1024px) {
+  .hamburger img {
+    display: none;
+  }
+  nav {
+    padding: 0px 5px;
+  }
+  nav ul {
+    display: flex;
+    list-style: none;
+    font-size: 14px;
+    margin:0;
+    padding:0;
+    left:-200px;
+    position: relative;
+    top:-5px;
+    gap:20px;
+
+  }
+  nav li{
+    display: inline-flex;
+  }
+  nav li a{
+    display: block;
+    padding:0px;
+
+  }
+  nav button {
+    display: flex;
+  }
+  .logo img {
+    width: 100px;
+  }
+  .login {
+    display: flex;
+    position: relative;
+    left:-200px;
+    top:-5px;
+  }
+  .login a{
+    display: block;
+    padding:0px;
+    top:12px;
+    font-size: 14px;
+
+  }
+  .get-the-app-bt {
+    border-radius: 20px;
+    background-color:whitesmoke;
+    color: black;
+    padding: 5px 15px;
+    margin: 5px 30px;
+    border: 3px solid whitesmoke;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    padding: 15px 20px;
+    display: none;
+  }
+  
+  .logo img {
+    width: 110px;
+    padding: 20px 20px;
+  }
+  
+  .part-1{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width:50%;
+    /* display: flex; */
+    /* padding:0px 10px; */
+    margin: auto;
+  }
+  
+  .button {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+    display: block;
+  top:30px;
+  /* left:10px; */
+  
+  }
+  
+  .button img {
+    position:relative;
+    width: 15px;
+    color: blue;
+    align-items: right;
+    /* transform: translate(1660%, 20%); */
+    justify-content: right;
+    top:auto;
+    left:140px;
+  }
+  
+  .button-1 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    /* padding: 5px 30px; */
+    width: 300px;
+    height: 30px;
+    background-color: #c7e2f6;
+    color: #41beff;
+    cursor: pointer;
+    border: none;
+    font-size: 13px;
+  }
+  
+  .button-1 p {
+    position: absolute;
+    /* display: flex; */
+    text-align: center;
+    top: -7px;
+    left: 45px;
+  
+  }
+  
+  .button-2 {
+    top: 4px;
+    left: 2px;
+    position: absolute;
+    /* display: flex; */
+    justify-content: left;
+    /* transform: translate(10%, -130%); */
+    padding: 1px 5px;
+    border-radius: 15px;
+    background-color: #06a0f1;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .text{
+    /* position: relative; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding:30px 0px;
+  }
+  
+  
+  .text-1 {
+    text-align: center;
+    font-size: 30px;
+    color: #102a43;
+    /* position: relative; */
+    /* top: -40px; */
+  }
+  
+  .text-1 span {
+    color: #41beff;
+  }
+  
+  .text-2 {
+    text-align: center;
+    font-size: 16px;
+    color: #486581;
+    /* position: relative; */
+    /* top: -50px; */
+    
+  }
+  
+  .part-1-1 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+    top: 10px;
+  }
+  
+  .google-play {
+    width: 120px;
+    border-radius: 10px;
+  }
+  
+  .apple-store {
+    width: 120px;
+    border-radius: 10px;
+  }
+  
+  .part-2{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    top: 20px;
+    margin: auto;
+    padding: 10px 10px;
+    width:100%;
+  }
+  
+  .part-1-2 {
+    position: absolute;
+    width: 100%;
+    height: 50vh;
+    background-image: url("./assests/images/Mobile-App-Hero-BG-2.png");
+    background-size: 300px;
+    background-position: center left 10px;
+    background-repeat: no-repeat;
+    padding: 10px 10px;
+  }
+  
+  .part-1-2 img {
+    position: absolute;
+    top:40px;
+    left: 10px;
+    width: 300px;
+    
+  }
+  
+  .part-3 {
+    background-color: rgb(255, 253, 250);
+    position: relative;
+    justify-content: center;
+    align-items: end;
+    padding: 120px 5px;
+    right: 0px;
+    left: 0px;
+    top: 350px;
+    width: 100%;
+    margin:5px 0px;
+  }
+  
+  .part-3-1{
+    position: relative;
+    top:-100px;
+  }
+  
+  .text-3 {
+    text-align: left;
+    font-size: 25px;
+    color: #102a43;
+    position: relative;
+    top: 0px;
+    padding: 10px 20px;
+  }
+  
+  .text-3 span {
+    color: #41beff;
+  }
+  
+  .part-3 p {
+    text-align: left;
+    font-size: 16px;
+    color: #486581;
+    position: relative;
+    top: -20px;
+    padding: 10px 20px;
+  }
+  
+  .part-3 button {
+    position: relative;
+    display: flex;
+    border-radius: 30px;
+    padding: 13px 30px;
+    background-color: #41beff;
+    color: white;
+    border: none;
+    transform: translate(10%, 0%);
+    font-size: 16px;
+  }
+  
+   .section-1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./assests/images/Mobile-App-Revolutionize-BG.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center top 40px;
+    margin: auto;
+  }
+  
+  .section-1 img{
+    position: relative;
+    left:-70px;
+    /* justify-content: center;
+    align-items: center; */
+    /* margin: auto; */
+    /* display:inline-flex; */
+  }
+  
+  
+   .section-1 .photo-1 {
+    position: relative;
+    width: 180px;
+    transform: translate(120%, 50%);
+    border-radius: 20px;
+  }
+  
+  .section-1 .photo-2 {
+    position: relative;
+    width: 70%;
+    height: 50%;
+    transform: translate(5%, 400%);
+    border-radius: 20px;
+  }
+  
+  .section-1 .photo-3 {
+    position: absolute;
+    width: 50%;
+    /* height: 50%; */
+    transform: translate(40%, 10%);
+  }
+  
+  .part-3-2{
+  position: relative;
+  top:-100px;
+  /* justify-content: center;
+  align-items: center; */
+  }
+  
+  .section-3{
+    position: relative;
+    top: 150px;
+  }
+  
+  .section-3 h2 {
+    text-align: left;
+    font-size: 25px;
+    color: #102a43;
+    position: relative;
+    top: 0px;
+    padding: 10px 20px;
+  }
+  
+  .text-3 span {
+    color: #41beff;
+  }
+  
+  .section-3 p {
+    text-align: left;
+    font-size: 16px;
+    color: #486581;
+    position: relative;
+    top: -20px;
+    padding: 10px 20px;
+  }
+  
+   .list {
+    position: relative;
+    top:-30px;
+    /* padding: 10px 150px; */
+  }
+  
+   .list ul {
+    list-style-type: none;
+    padding: 10px;
+  }
+  
+  ul li img {
+    width: 30px;
+    position: relative;
+    top: 10px;
+    margin-right: 10px;
+  }
+  
+   .part-3 .section-4{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./assests/images/Mobile-App-Connections-BG.png");
+    background-size: 250px;
+    background-repeat: no-repeat;
+    background-position: center top 200px;
+    display: flex;
+    top:-70px;
+  
+  }
+  
+  .part-3 .section-4 img{
+    position: relative;
+    display: flex;
+  }
+  
+  .photo-4{
+    width:150px;
+    transform: translate(80%, 80%);
+  }
+  
+  .photo-5{
+    width:170px;
+    border-radius: 10px;
+    transform: translate(-80%, 250%);
+  
+  }
+  
+  .part-4{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(251, 246, 238);
+    top:340px;
+    padding:70px 0px;
+    margin:0px;
+  }
+  
+  .part-4-1{
+    position: relative;
+    top:-30px;
+  }
+  
+  .part-4-1 p{
+    text-align: left;
+    padding:0px 20px;
+  }
+  
+  .list-2 ul {
+    list-style-type: none;
+    padding: 10px;
+  }
+  
+  .part-4 .part-4-2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./assests/images/Mobile-App-High-Quality-BG.webp");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: center top -10px;
+  }
+  
+  .part-4 .part-4-2 img{
+  position: relative;
+  top:-30px;
+  
+  }
+  
+  .photo-6{
+    width:150px;
+    border-radius: 10px;
+    transform: translate(90%, 10%);
+  }
+  
+  .photo-7{
+    width:150px;
+    border-radius: 10px;
+    transform: translate(-90%, 30%);
+  }
+  
+  .part-5{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: #edf7fc;
+    top:310px;
+    padding:160px 0px;
+  }
+  
+  .part-5-1{
+    position: relative;
+    top:-150px;
+    padding:10px 10px;
+  }
+  
+  .part-5-1 h2{
+    text-align: center;
+  }
+  
+  .part-5-1 p{
+    text-align: center;
+    line-height: 30px;
+    padding:0px 20px;
+  }
+  
+  .part-6{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    padding:20px 20px;
+    border-radius: 20px;
+    top:3420px;
+    background-color: white;
+    margin:20px 25px;
+    width:70%;
+    border: 1px solid whitesmoke;
+  }
+  
+  .part-6-1{
+    position: relative;
+  }
+  
+  .part-6-1 h3{
+    text-align: center;
+  }
+  
+  .part-6-1 p{
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .part-6-2{
+    position: relative;
+  top:20px;
+  }
+  
+  .part-6-2 img{
+    width:250px;
+  }
+  
+  .part-7{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    padding:20px 20px;
+    border-radius: 20px;
+    top:3800px;
+    background-color: white;
+    margin:20px 25px;
+    width:70%;
+    height:70%;
+    border: 1px solid whitesmoke;
+  }
+  
+  .part-7-1{
+    position: relative;
+  }
+  
+  .part-7-1 h3{
+    text-align: center;
+  }
+  
+  .part-7-2{
+    position: relative;
+  top:10px;
+  padding:0px 0px;
+  }
+  
+  .part-7-2 .photo-9{
+    width:250px;
+    height:200px;
+  }
+  
+  .part-8{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background-color: #020F33;
+    top:200px;
+    padding:650px 0px;
+    z-index: -1;
+  }
+  
+  .part-8-1{
+    position: relative;
+    top:70px;
+  }
+  
+  .part-8-1 h2{
+  text-align: center;
+  color:white;
+  }
+  
+  .section-A{
+  display: inline-block;
+  }
+  
+  .part-9{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    padding:20px 20px;
+    border-radius: 20px;
+    top:4500px;
+    background-color: white;
+    margin:20px 25px;
+    width:70%;
+    height:45%;
+    border: 1px solid whitesmoke;
+  }
+  
+  .part-9 p{
+    text-align: left;
+  }
+  
+  .part-10{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    padding:20px 20px;
+    border-radius: 20px;
+    top:4840px;
+    background-color: white;
+    margin:20px 25px;
+    width:70%;
+    height:45%;
+    border: 1px solid whitesmoke;
+  }
+  
+  .part-10 p{
+    text-align: left;
+  }
+  
+  .part-11{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    padding:20px 20px;
+    border-radius: 20px;
+    top:5180px;
+    background-color: white;
+    margin:20px 25px;
+    width:70%;
+    height:45%;
+    border: 1px solid whitesmoke;
+  }
+  
+  .part-11 p{
+    text-align: left;
+  }
+  
+  .empty{
+    position: relative;
+    background-color:rgb(255, 251, 246) ;
+    padding: 290px 0px;
+    bottom:-100px;
+    z-index: -1;
+  }
+  
+  .part-12{
+    position: relative;
+    background-color: rgb(252, 246, 239);
+    z-index: -1;
+    bottom:-100px;
+    padding: 200px 0px;
+    width:100%;
+  }
+  
+  .part-12-1{
+    position: relative;
+  bottom:170px;
+  padding:0px 20px;
+  }
+  
+  
+  .subsection-12{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    overflow-x: scroll; 
+    overflow-y: hidden;
+    white-space: wrap;
+    display: flex;
+    padding:10px 0px;
+    /* gap:20px; */
+    width:100%;
+    bottom:30px;
+   
+  }
+  
+  .subpart-1{
+  
+    padding:20px 20px;
+    border-radius: 20px;
+    bottom:-100px;
+    background-color: white;
+    margin:20px 25px;
+    width:70%;
+    height:50%;
+    border: 1px solid whitesmoke;
+  }
+  
+  .subpart-1-1 img{
+    border-radius: 50px;
+    width:50px;
+  }
+  
+  .part-12 span{
+    color:gray;
+    font-size: 14px;
+    font-weight: lighter;
+  }
+  
+  .part-12 p{
+    text-align: left;
+  }
+  
+  .subpart-2{
+    padding:20px 20px;
+    border-radius: 20px;
+    bottom:-100px;
+    background-color: white;
+    margin:20px 25px;
+    width:70%;
+    height:50%;
+    border: 1px solid whitesmoke;
+  }
+  
+  .subpart-2-1 img{
+    border-radius: 50px;
+    width:50px;
+  }
+  
+  .subpart-3{
+    padding:20px 20px;
+    border-radius: 20px;
+    bottom:-100px;
+    background-color: white;
+    margin:20px 25px;
+    width:70%;
+    height:50%;
+    border: 1px solid whitesmoke;
+  }
+  
+  .subpart-3-1 img{
+    border-radius: 50px;
+    width:50px;
+  }
+  
+  .subpart-4{
+    padding:20px 20px;
+    border-radius: 20px;
+    bottom:-100px;
+    background-color: white;
+    margin:20px 25px;
+    width:70%;
+    height:50%;
+    border: 1px solid whitesmoke;
+  }
+  
+  .subpart-4-1 img{
+    border-radius: 50px;
+    width:50px;
+  }
+  
+  .part-13{
+    position: relative;
+    bottom:-100px;
+    background-color: rgb(252, 246, 239);
+    padding:20px 0px;
+  }
+  
+  .part-13-1{
+    position: relative;
+    padding:60px 10px;
+    bottom:80px;
+  }
+  
+  .part-13-1 p{
+    text-align: left;
+    padding:0px 20px;
+  }
+  
+  .part-13-2{
+    position: relative;
+    display: flex;
+    gap:20px;
+    padding:0px 30px;
+    bottom:100px;
+  }
+  
+  .part-13-2 img{
+    width:120px;
+    border-radius: 10px;
+  }
+  
+  .part-13-3{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./assests/images/Mobile-App-Hero-BG-2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center top -10px;
+    bottom:50px;
+  }
+  
+  .part-13-3 img{
+    display: block;
+    margin:auto;
+    width:90%;
+  }
+  
+  footer{
+    position: relative;
+    background-color:#020F33;
+    bottom:-100px;
+    padding:60px 20px;
+  }
+  
+  
+  .part-14{
+    justify-content: center;
+    align-items: center;
+    /* padding:60px 20px; */
+  }
+  
+  .part-14 img{
+    display: block;
+    margin:auto;
+    width:50%;
+  }
+  
+  .part-14 p{
+    color: white;
+  }
+  
+  .part-15{
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  /* padding:0px 10px; */
+  }
+  
+  .part-15 h4{
+    color: white;
+    text-align: center;
+  }
+  
+  .part-15A{
+    display: flex;
+    padding:20px 10px;
+    
+  }
+  
+   .part-15B{
+    display: flex;
+   }
+  
+  .part-15A ul{
+    list-style-type: none;
+    color:gainsboro;
+    text-align: center;
+    line-height: 30px;
+    padding:0px 20px;
+    
+  }
+  
+  .part-15B ul{
+    list-style-type: none;
+    color:gainsboro;
+    text-align: center;
+    line-height: 30px;
+   padding:0px 20px; 
+  }
+  
+  .part-16{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+   bottom:-30px;
+  }
+  
+  .part-16 p{
+    color: gainsboro;
+    text-align: center;
+    line-height: 20px;
+    font-size: 13px;
+  }
+
+}
+
+
+  
+  
+  
+  
